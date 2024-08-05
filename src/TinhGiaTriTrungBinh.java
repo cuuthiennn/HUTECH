@@ -21,7 +21,7 @@ public class App {
         scan.nextLine();
         System.out.println("Nhập vào số nguyên thứ năm: ");
         tong += scan.nextInt();
-        trungBinh = 1f * tong / soLuong; Float.
+        trungBinh = 1f * tong / soLuong;
         System.out.println("Trung bình của năm số nhập là: " + trungBinh);
     }
 }
