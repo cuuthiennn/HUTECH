@@ -1,7 +1,6 @@
-import java.time.temporal.ValueRange;
 import java.util.Scanner;
 
-public class App {
+public class TinhGiaTriTrungBinh {
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
         int tong = 0;
@@ -21,7 +20,7 @@ public class App {
         scan.nextLine();
         System.out.println("Nhập vào số nguyên thứ năm: ");
         tong += scan.nextInt();
-        trungBinh = 1f * tong / soLuong; Float.
+        trungBinh = 1f * tong / soLuong;
         System.out.println("Trung bình của năm số nhập là: " + trungBinh);
     }
 }
